@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════════════════════════════════════
+   CSS Custom Properties — Brand Tokens
+   ═══════════════════════════════════════════ */
+:root {
+  --color-white: #fcfcfc;
+  --color-dark: #4a4d55;
+  --color-slate: #647189;
+  --color-blue: #7e96be;
+  --color-accent: #F4A261;
+  --color-light: #98bbf3;
+}
+
+/* ═══════════════════════════════════════════
+   Base Styles
+   ═══════════════════════════════════════════ */
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--color-dark);
+  background-color: var(--color-white);
+}
+
+h1, h2, h3 {
+  font-family: 'Sora', sans-serif;
+}
+
+/* ═══════════════════════════════════════════
+   Dark Mode (default)
+   ═══════════════════════════════════════════ */
+.dark body {
+  color: var(--color-white);
+  background-color: var(--color-dark);
+}
