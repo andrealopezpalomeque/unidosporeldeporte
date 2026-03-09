@@ -1,18 +1,31 @@
 <template>
-  <component
-    :is="to ? resolveComponent('NuxtLink') : 'button'"
+  <NuxtLink
+    v-if="to"
     :to="to"
-    :href="href"
-    :type="!to && !href ? type : undefined"
     :class="buttonClass"
     v-bind="$attrs"
   >
     <slot />
-  </component>
+  </NuxtLink>
+  <a
+    v-else-if="href"
+    :href="href"
+    :class="buttonClass"
+    v-bind="$attrs"
+  >
+    <slot />
+  </a>
+  <button
+    v-else
+    :type="type"
+    :class="buttonClass"
+    v-bind="$attrs"
+  >
+    <slot />
+  </button>
 </template>
 
 <script setup lang="ts">
-import { resolveComponent } from 'vue'
 
 const props = withDefaults(defineProps<{
   variant?: 'primary' | 'secondary' | 'outline'
