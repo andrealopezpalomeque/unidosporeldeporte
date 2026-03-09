@@ -34,3 +34,14 @@ h1, h2, h3 {
   color: var(--color-white);
   background-color: var(--color-dark);
 }
+
+/* ═══════════════════════════════════════════
+   SVG Fill Utilities (for logo wordmark)
+   ═══════════════════════════════════════════ */
+@layer utilities {
+  .fill-blue { fill: #7e96be; }
+  .fill-light { fill: #98bbf3; }
+  .fill-dark { fill: #4a4d55; }
+  .fill-white { fill: #fcfcfc; }
+  .fill-accent { fill: #F4A261; }
+}

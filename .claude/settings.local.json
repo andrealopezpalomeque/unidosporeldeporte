@@ -4,7 +4,10 @@
       "Bash(npx nuxi@latest:*)",
       "Bash(mkdir:*)",
       "Bash(npm install:*)",
-      "Bash(pkill:*)"
+      "Bash(pkill:*)",
+      "Bash(grep:*)",
+      "Bash(npx nuxt:*)",
+      "Bash(curl:*)"
     ]
   }
 }
