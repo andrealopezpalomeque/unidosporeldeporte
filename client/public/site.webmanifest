@@ -1,0 +1,16 @@
+{
+  "name": "Unidos por el Deporte",
+  "short_name": "UPED",
+  "description": "Fundación Unidos por el Deporte — El deporte nos une",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#4a4d55",
+  "theme_color": "#4a4d55",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ]
+}

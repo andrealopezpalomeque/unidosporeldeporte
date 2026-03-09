@@ -8,6 +8,8 @@ useHead({
     { name: 'description', content: 'Noticias y novedades de la Fundación Unidos por el Deporte. Seguí de cerca nuestras acciones, eventos y logros.' },
     { property: 'og:title', content: 'Novedades — Unidos por el Deporte' },
     { property: 'og:description', content: 'Noticias y novedades del deporte correntino.' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: '/og-image.png' },
   ],
 })
 

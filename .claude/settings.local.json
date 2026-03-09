@@ -9,7 +9,8 @@
       "Bash(npx nuxt:*)",
       "Bash(curl:*)",
       "Bash(wc:*)",
-      "Bash(npx nuxi:*)"
+      "Bash(npx nuxi:*)",
+      "Bash(npm run:*)"
     ]
   }
 }

@@ -8,6 +8,8 @@ useHead({
     { name: 'description', content: 'Conocé los 5 ejes de acción de la Fundación Unidos por el Deporte: articulación, infraestructura, inclusión, recursos y legislación deportiva.' },
     { property: 'og:title', content: 'Qué Hacemos — Unidos por el Deporte' },
     { property: 'og:description', content: 'Los 5 ejes de acción que guían nuestro trabajo por el deporte correntino.' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: '/og-image.png' },
   ],
 })
 

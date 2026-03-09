@@ -45,3 +45,21 @@ h1, h2, h3 {
   .fill-white { fill: #fcfcfc; }
   .fill-accent { fill: #F4A261; }
 }
+
+/* ═══════════════════════════════════════════
+   Page Transitions
+   ═══════════════════════════════════════════ */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(8px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-8px);
+}

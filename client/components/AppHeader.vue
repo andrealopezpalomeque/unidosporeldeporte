@@ -46,7 +46,8 @@
         <button
           @click="mobileOpen = !mobileOpen"
           class="md:hidden p-2 rounded-full text-white/60 hover:text-white hover:bg-white/10 transition-all duration-200"
-          aria-label="Menu"
+          :aria-label="mobileOpen ? 'Cerrar menú' : 'Abrir menú'"
+          :aria-expanded="mobileOpen"
         >
           <X v-if="mobileOpen" :size="22" />
           <Menu v-else :size="22" />

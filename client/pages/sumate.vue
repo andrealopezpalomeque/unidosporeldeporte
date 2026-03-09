@@ -8,6 +8,8 @@ useHead({
     { name: 'description', content: 'Sumate a Unidos por el Deporte. Clubes, deportistas, familias, sponsors y donantes: hay un lugar para vos en el deporte correntino.' },
     { property: 'og:title', content: 'Sumate — Unidos por el Deporte' },
     { property: 'og:description', content: 'Hay un lugar para vos en el deporte correntino.' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: '/og-image.png' },
   ],
 })
 

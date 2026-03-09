@@ -8,6 +8,8 @@ useHead({
     { name: 'description', content: 'Escribinos. Estamos para escucharte. Contactá a la Fundación Unidos por el Deporte en Corrientes.' },
     { property: 'og:title', content: 'Contacto — Unidos por el Deporte' },
     { property: 'og:description', content: 'Contactá a la Fundación Unidos por el Deporte.' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: '/og-image.png' },
   ],
 })
 

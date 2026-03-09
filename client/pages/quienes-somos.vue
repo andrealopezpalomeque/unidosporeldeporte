@@ -8,6 +8,8 @@ useHead({
     { name: 'description', content: 'Conocé la historia, misión y equipo de la Fundación Unidos por el Deporte. Nacimos en Corrientes para transformar el deporte provincial.' },
     { property: 'og:title', content: 'Quiénes Somos — Unidos por el Deporte' },
     { property: 'og:description', content: 'Conocé la historia, misión y equipo de la Fundación Unidos por el Deporte.' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: '/og-image.png' },
   ],
 })
 
@@ -77,7 +79,7 @@ onMounted(() => {
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <div class="p-8 rounded-2xl bg-white/60 dark:bg-white/[0.04] border border-white/10 dark:border-white/5 reveal">
         <div class="w-12 h-12 rounded-xl bg-blue/10 flex items-center justify-center mb-5">
-          <svg class="w-6 h-6 text-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16 10-5.5 5.5L8 13"/></svg>
+          <svg class="w-6 h-6 text-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m16 10-5.5 5.5L8 13"/></svg>
         </div>
         <h3 class="text-lg font-heading font-bold text-dark dark:text-white mb-3">Misión</h3>
         <p class="text-slate text-sm font-body leading-relaxed">
@@ -86,7 +88,7 @@ onMounted(() => {
       </div>
       <div class="p-8 rounded-2xl bg-white/60 dark:bg-white/[0.04] border border-white/10 dark:border-white/5 reveal">
         <div class="w-12 h-12 rounded-xl bg-blue/10 flex items-center justify-center mb-5">
-          <svg class="w-6 h-6 text-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+          <svg class="w-6 h-6 text-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
         </div>
         <h3 class="text-lg font-heading font-bold text-dark dark:text-white mb-3">Visión</h3>
         <p class="text-slate text-sm font-body leading-relaxed">
@@ -95,7 +97,7 @@ onMounted(() => {
       </div>
       <div class="p-8 rounded-2xl bg-white/60 dark:bg-white/[0.04] border border-white/10 dark:border-white/5 reveal">
         <div class="w-12 h-12 rounded-xl bg-blue/10 flex items-center justify-center mb-5">
-          <svg class="w-6 h-6 text-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          <svg class="w-6 h-6 text-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
         </div>
         <h3 class="text-lg font-heading font-bold text-dark dark:text-white mb-3">Propósito</h3>
         <p class="text-slate text-sm font-body leading-relaxed">
