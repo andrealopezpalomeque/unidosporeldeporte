@@ -8,7 +8,7 @@
         Hay un lugar para vos
       </h2>
       <p class="text-slate font-body text-lg max-w-xl mx-auto reveal">
-        No importa desde donde vengas: si crees en el deporte, ya somos equipo.
+        No importa desde dónde vengas: si creés en el deporte, ya somos equipo.
       </p>
     </div>
 
@@ -25,7 +25,7 @@
         <h3 class="font-heading font-bold text-lg mb-2">{{ card.title }}</h3>
         <p class="font-body text-slate text-sm leading-relaxed mb-4">{{ card.description }}</p>
         <span class="inline-flex items-center gap-1 text-light font-body font-semibold text-sm group-hover:gap-2 transition-all duration-200">
-          Conoce mas
+          Conocé más
           <ArrowRight :size="16" />
         </span>
       </NuxtLink>
@@ -40,17 +40,17 @@ const cards = [
   {
     icon: Trophy,
     title: 'Clubes y federaciones',
-    description: 'Trabajamos codo a codo con ustedes. Conocemos sus desafios y ofrecemos herramientas concretas para fortalecerlos.',
+    description: 'Trabajamos codo a codo con ustedes. Conocemos sus desafíos y ofrecemos herramientas concretas para fortalecerlos.',
   },
   {
     icon: Users,
     title: 'Deportistas y familias',
-    description: 'El deporte cambia vidas. Acompanamos a quienes compiten, entrenan y suenian con ir mas lejos.',
+    description: 'El deporte cambia vidas. Acompañamos a quienes compiten, entrenan y sueñan con ir más lejos.',
   },
   {
     icon: HeartHandshake,
     title: 'Sponsors y donantes',
-    description: 'Tu apoyo tiene impacto real. Objetivos claros, metricas de resultado y una asociacion que vale la pena.',
+    description: 'Tu apoyo tiene impacto real. Objetivos claros, métricas de resultado y una asociación que vale la pena.',
   },
 ]
 </script>

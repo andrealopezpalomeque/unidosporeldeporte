@@ -154,7 +154,7 @@ onMounted(() => {
   <SectionWrapper bg="dark">
     <div class="text-center max-w-xl mx-auto reveal">
       <h2 class="text-2xl md:text-3xl font-heading font-bold text-white mb-4">
-        Querés ser parte?
+        ¿Querés ser parte?
       </h2>
       <p class="text-slate font-body mb-8">
         Hay muchas formas de sumarte a este movimiento. Clubes, deportistas, familias, sponsors — todos tienen un lugar.

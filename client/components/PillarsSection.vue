@@ -1,7 +1,7 @@
 <template>
   <SectionWrapper id="pilares">
     <p class="text-accent font-body font-semibold text-sm tracking-widest uppercase mb-3 reveal">
-      Que hacemos
+      Qué hacemos
     </p>
     <h2 class="font-heading font-bold text-3xl sm:text-4xl mb-4 reveal">
       Conectamos lo disperso, fortalecemos lo que existe
@@ -32,28 +32,28 @@ import { Handshake, Building2, HeartPulse, Wallet, Scale } from 'lucide-vue-next
 const pillars = [
   {
     icon: Handshake,
-    title: 'Articulacion institucional',
-    description: 'Coordinamos la accion entre clubes, federaciones, gobierno y educacion para que el deporte avance de manera integrada.',
+    title: 'Articulación institucional',
+    description: 'Coordinamos la acción entre clubes, federaciones, gobierno y educación para que el deporte avance de manera integrada.',
   },
   {
     icon: Building2,
     title: 'Infraestructura y alto rendimiento',
-    description: 'Disenamos y optimizamos instalaciones deportivas, incluyendo un centro de alto rendimiento para la provincia.',
+    description: 'Diseñamos y optimizamos instalaciones deportivas, incluyendo un centro de alto rendimiento para la provincia.',
   },
   {
     icon: HeartPulse,
-    title: 'Inclusion y acceso',
-    description: 'Incorporamos a mujeres, personas con discapacidad, adultos mayores y jovenes a todas las disciplinas deportivas.',
+    title: 'Inclusión y acceso',
+    description: 'Incorporamos a mujeres, personas con discapacidad, adultos mayores y jóvenes a todas las disciplinas deportivas.',
   },
   {
     icon: Wallet,
-    title: 'Gestion de recursos',
-    description: 'Administramos fondos publicos y privados para canchas, equipamiento, capacitacion y competencias.',
+    title: 'Gestión de recursos',
+    description: 'Administramos fondos públicos y privados para canchas, equipamiento, capacitación y competencias.',
   },
   {
     icon: Scale,
-    title: 'Legislacion y politica deportiva',
-    description: 'Elaboramos proyectos de ley y propuestas de reforma para una politica deportiva provincial a largo plazo.',
+    title: 'Legislación y política deportiva',
+    description: 'Elaboramos proyectos de ley y propuestas de reforma para una política deportiva provincial a largo plazo.',
   },
 ]
 </script>

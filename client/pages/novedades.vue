@@ -114,7 +114,7 @@ onMounted(() => {
   <SectionWrapper bg="light">
     <div class="text-center max-w-xl mx-auto reveal">
       <h2 class="text-xl md:text-2xl font-heading font-bold text-dark dark:text-white mb-4">
-        Querés estar al día?
+        ¿Querés estar al día?
       </h2>
       <p class="text-slate font-body mb-8">
         Seguinos en redes sociales para no perderte ninguna novedad del deporte correntino.

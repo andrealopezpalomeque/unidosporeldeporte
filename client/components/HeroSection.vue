@@ -20,7 +20,7 @@
 
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4 reveal">
         <BaseButton to="/quienes-somos" variant="primary">
-          Conoce la fundacion
+          Conocé la fundación
         </BaseButton>
         <BaseButton to="/sumate" variant="outline">
           Sumate

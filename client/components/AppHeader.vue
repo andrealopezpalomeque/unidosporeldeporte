@@ -87,8 +87,8 @@ import { Sun, Moon, Menu, X } from 'lucide-vue-next'
 
 const navLinks = [
   { to: '/', label: 'Inicio' },
-  { to: '/quienes-somos', label: 'Quienes Somos' },
-  { to: '/que-hacemos', label: 'Que Hacemos' },
+  { to: '/quienes-somos', label: 'Quiénes Somos' },
+  { to: '/que-hacemos', label: 'Qué Hacemos' },
   { to: '/sumate', label: 'Sumate' },
   { to: '/novedades', label: 'Novedades' },
   { to: '/contacto', label: 'Contacto' },

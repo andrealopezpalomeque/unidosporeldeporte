@@ -7,16 +7,16 @@
           Nuestra historia
         </p>
         <h2 class="font-heading font-bold text-3xl sm:text-4xl mb-6 reveal">
-          Una fundacion nacida del deporte correntino
+          Una fundación nacida del deporte correntino
         </h2>
         <p class="font-body text-slate leading-relaxed mb-4 reveal">
-          Unidos por el Deporte nacio el 8 de noviembre de 2024 con una conviccion simple:
-          el deporte en Corrientes tiene todo el potencial, pero necesita articulacion,
+          Unidos por el Deporte nació el 8 de noviembre de 2024 con una convicción simple:
+          el deporte en Corrientes tiene todo el potencial, pero necesita articulación,
           recursos y una voz institucional que lo represente.
         </p>
         <p class="font-body text-slate leading-relaxed reveal">
           Desde clubes barriales hasta federaciones provinciales, trabajamos para que cada
-          correntino tenga acceso a la actividad fisica, la cultura deportiva y las
+          correntino tenga acceso a la actividad física, la cultura deportiva y las
           oportunidades que el deporte genera.
         </p>
       </div>
@@ -43,8 +43,8 @@
 <script setup lang="ts">
 const stats = [
   { number: '200+', label: 'Clubes deportivos en Corrientes' },
-  { number: '99', label: 'Anos de duracion institucional' },
-  { number: '5', label: 'Ejes de accion simultaneos' },
+  { number: '99', label: 'Años de duración institucional' },
+  { number: '5', label: 'Ejes de acción simultáneos' },
   { number: '1', label: 'Objetivo: que el deporte llegue a todos' },
 ]
 </script>

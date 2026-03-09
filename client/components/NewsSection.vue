@@ -6,7 +6,7 @@
           Novedades
         </p>
         <h2 class="font-heading font-bold text-3xl sm:text-4xl reveal">
-          Ultimas noticias
+          Últimas noticias
         </h2>
       </div>
       <NuxtLink
@@ -50,18 +50,18 @@ import { ArrowRight } from 'lucide-vue-next'
 const news = [
   {
     date: 'Marzo 2026',
-    title: 'La fundacion lanza su sitio web',
-    excerpt: 'Presentamos nuestra nueva plataforma digital para acercar informacion, novedades y oportunidades a toda la comunidad deportiva correntina.',
+    title: 'La fundación lanza su sitio web',
+    excerpt: 'Presentamos nuestra nueva plataforma digital para acercar información, novedades y oportunidades a toda la comunidad deportiva correntina.',
   },
   {
     date: 'Mayo 2025',
-    title: 'Aprobacion oficial por la IGPJ',
-    excerpt: 'La Inspeccion General de Personas Juridicas de Corrientes aprobo formalmente a la fundacion mediante Resolucion N.o 000552/2025.',
+    title: 'Aprobación oficial por la IGPJ',
+    excerpt: 'La Inspección General de Personas Jurídicas de Corrientes aprobó formalmente a la fundación mediante Resolución N.º 000552/2025.',
   },
   {
     date: 'Noviembre 2024',
     title: 'Acta constitutiva firmada',
-    excerpt: 'El 8 de noviembre de 2024, Juan Jose Lopez Desimoni fundo oficialmente Unidos por el Deporte junto al consejo de administracion.',
+    excerpt: 'El 8 de noviembre de 2024, Juan José López Desimoni fundó oficialmente Unidos por el Deporte junto al consejo de administración.',
   },
 ]
 </script>

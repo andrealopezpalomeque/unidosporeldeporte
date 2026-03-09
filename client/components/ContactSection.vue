@@ -10,8 +10,8 @@
           Hablemos
         </h2>
         <p class="font-body text-slate leading-relaxed mb-8 reveal">
-          Si tenes una idea, una consulta o simplemente queres conocernos, escribinos.
-          Estamos aca para escucharte.
+          Si tenés una idea, una consulta o simplemente querés conocernos, escribinos.
+          Estamos acá para escucharte.
         </p>
 
         <div class="space-y-4">
@@ -51,7 +51,7 @@
           <textarea
             id="mensaje"
             rows="4"
-            placeholder="Contanos en que podemos ayudarte..."
+            placeholder="Contanos en qué podemos ayudarte..."
             class="w-full rounded-xl border border-white/10 dark:border-white/5 bg-white/5 dark:bg-white/[0.03] px-4 py-3 font-body text-sm text-inherit placeholder:text-slate/50 focus:outline-none focus:ring-2 focus:ring-light/30 transition-all duration-200 resize-none"
           />
         </div>

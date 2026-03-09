@@ -38,14 +38,14 @@
         <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
           <div class="space-y-1">
             <p class="text-xs text-white/40 font-body">
-              Fundacion Unidos por el Deporte — Res. N.o 000552/2025 (IGPJ Corrientes)
+              Fundación Unidos por el Deporte — Res. N.º 000552/2025 (IGPJ Corrientes)
             </p>
             <p class="text-xs text-white/30 font-body">
               La Cruz 3149, Corrientes Capital — Corrientes, Argentina
             </p>
           </div>
           <p class="text-xs text-white/30 font-body">
-            &copy; {{ currentYear }} Fundacion Unidos por el Deporte
+            &copy; {{ currentYear }} Fundación Unidos por el Deporte
           </p>
         </div>
       </div>

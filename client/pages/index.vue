@@ -13,9 +13,9 @@
 useHead({
   title: 'Unidos por el Deporte — El deporte nos une',
   meta: [
-    { name: 'description', content: 'Fundacion Unidos por el Deporte. Promovemos el deporte, la actividad fisica, la cultura y la educacion en Corrientes, Argentina.' },
+    { name: 'description', content: 'Fundación Unidos por el Deporte. Promovemos el deporte, la actividad física, la cultura y la educación en Corrientes, Argentina.' },
     { property: 'og:title', content: 'Unidos por el Deporte — El deporte nos une' },
-    { property: 'og:description', content: 'Fundacion sin fines de lucro dedicada a fortalecer el deporte correntino.' },
+    { property: 'og:description', content: 'Fundación sin fines de lucro dedicada a fortalecer el deporte correntino.' },
     { property: 'og:type', content: 'website' },
     { property: 'og:image', content: '/og-image.png' },
   ],
