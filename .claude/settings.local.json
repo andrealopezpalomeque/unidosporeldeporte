@@ -7,7 +7,9 @@
       "Bash(pkill:*)",
       "Bash(grep:*)",
       "Bash(npx nuxt:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(wc:*)",
+      "Bash(npx nuxi:*)"
     ]
   }
 }
