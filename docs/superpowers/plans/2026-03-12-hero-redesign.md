@@ -118,7 +118,7 @@ This task replaces the entire file. Read the current file first, then replace it
           <div class="reveal">
             <span class="inline-flex items-center gap-2 border border-blue/35 rounded-full px-3 py-1 text-sm font-body font-medium text-light bg-blue/5 w-fit">
               <span class="w-1.5 h-1.5 rounded-full bg-accent flex-shrink-0" />
-              Fundación oficial · Corrientes, Argentina
+              Fundación · Corrientes, Argentina
             </span>
           </div>
 
@@ -258,7 +258,7 @@ This task replaces the entire file. Read the current file first, then replace it
 
   Hot-reload should trigger automatically. Verify:
   - [ ] Two-column layout visible at desktop width (> 1024px): text left, collage right
-  - [ ] Badge pill renders with accent dot and "Fundación oficial · Corrientes, Argentina"
+  - [ ] Badge pill renders with accent dot and "Fundación · Corrientes, Argentina"
   - [ ] Headline is 3 lines: "Conectamos" / "el deporte" / "correntino." — white/celeste/white
   - [ ] Description paragraph renders in slate, "clubes, federaciones y comunidades" is bold and lighter
   - [ ] "Conocé la fundación" button has an arrow icon to its right

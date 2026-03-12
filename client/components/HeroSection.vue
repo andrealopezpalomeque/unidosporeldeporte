@@ -16,7 +16,7 @@
         <div class="reveal">
           <span class="inline-flex items-center gap-2 border border-blue/30 rounded-full px-3 py-1 text-sm font-body font-medium text-blue bg-blue/8 w-fit">
             <span class="w-1.5 h-1.5 rounded-full bg-accent flex-shrink-0" />
-            Fundación oficial · Corrientes, Argentina
+            Fundación · Corrientes, Argentina
           </span>
         </div>
 

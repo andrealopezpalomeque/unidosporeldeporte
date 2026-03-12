@@ -24,7 +24,7 @@ Redesign `HeroSection.vue` from a centered full-screen layout to a two-column sp
 
 ### Badge
 - Pill-shaped border badge: `border border-blue/35 rounded-full px-3 py-1`
-- Content: `"Fundación oficial · Corrientes, Argentina"`
+- Content: `"Fundación · Corrientes, Argentina"`
 - Small accent-colored dot (6px) as a leading visual marker
 - Color: `text-light`, `bg-blue/5`
 
@@ -111,7 +111,7 @@ Keep the existing scroll indicator (bouncing dot in a pill border) at `absolute 
 | Centered single column | Two-column grid (`lg:grid-cols-2`) |
 | Logo icon at top (100px) | Logo removed from hero (lives in header) |
 | Short tagline only ("El deporte nos une") | Full description paragraph added |
-| No badge | Badge: "Fundación oficial · Corrientes, Argentina" |
+| No badge | Badge: "Fundación · Corrientes, Argentina" |
 | No visual on right | Staggered photo collage |
 | Headline ~4xl–6xl, single line | Headline up to 7xl, 3 lines, `tracking-tighter` |
 | "Conectamos al deporte correntino" | "Conectamos / el deporte / correntino." (copy change — removes "al") |
