@@ -95,8 +95,8 @@
           style="transition-delay: 300ms"
         >
           <img
-            src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=600&q=80&auto=format&fit=crop"
-            alt="Deporte inclusivo"
+            src="/images/hero/team-training.jpg"
+            alt="Plantel masculino entrenando en cancha con estadio al fondo"
             class="w-full h-full object-cover object-top"
           />
           <div class="absolute inset-0 bg-blue/10 pointer-events-none" />
