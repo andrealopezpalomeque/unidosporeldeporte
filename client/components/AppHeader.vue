@@ -30,6 +30,14 @@
 
       <!-- Right actions -->
       <div class="flex items-center gap-3">
+        <!-- Contacto CTA (desktop) -->
+        <NuxtLink
+          to="/contacto"
+          class="hidden md:inline-flex items-center font-body text-sm font-semibold bg-accent text-dark px-5 py-2 rounded-full transition-opacity duration-200 hover:opacity-90"
+        >
+          Contacto
+        </NuxtLink>
+
         <!-- Mobile hamburger -->
         <button
           @click="mobileOpen = !mobileOpen"
@@ -64,6 +72,15 @@
               {{ link.label }}
             </NuxtLink>
           </li>
+          <li class="pt-1">
+            <NuxtLink
+              to="/contacto"
+              class="block py-2.5 px-3 rounded-full font-body text-sm font-semibold bg-accent text-dark text-center transition-opacity duration-200 hover:opacity-90"
+              @click="mobileOpen = false"
+            >
+              Contacto
+            </NuxtLink>
+          </li>
         </ul>
       </div>
     </Transition>
@@ -79,7 +96,6 @@ const navLinks = [
   { to: '/que-hacemos', label: 'Qué Hacemos' },
   { to: '/sumate', label: 'Sumate' },
   { to: '/novedades', label: 'Novedades' },
-  { to: '/contacto', label: 'Contacto' },
 ]
 
 const mobileOpen = ref(false)
