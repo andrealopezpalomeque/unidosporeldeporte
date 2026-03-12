@@ -56,9 +56,9 @@
           class="reveal absolute top-0 left-[4%] w-[52%] h-[54%] z-30 rounded-2xl overflow-hidden border border-white/[0.06] shadow-lg hidden lg:block"
         >
           <img
-            src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&q=80&auto=format&fit=crop"
-            alt="Fútbol"
-            class="w-full h-full object-cover object-top"
+            src="/images/hero/team-men.jpg"
+            alt="Equipo de fútbol masculino celebrando en cancha de Corrientes"
+            class="w-full h-full object-cover object-center"
           />
           <div class="absolute inset-0 bg-blue/10 pointer-events-none" />
         </div>
@@ -69,8 +69,8 @@
           style="transition-delay: 100ms"
         >
           <img
-            src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&q=80&auto=format&fit=crop"
-            alt="Atletismo"
+            src="/images/hero/team-women-trophy.jpg"
+            alt="Equipo femenino campeón con trofeo y bandera de Corrientes"
             class="w-full h-full object-cover object-center"
           />
           <div class="absolute inset-0 bg-blue/10 pointer-events-none" />
@@ -106,16 +106,16 @@
         <div class="grid grid-cols-2 gap-3 h-full lg:hidden">
           <div class="reveal relative rounded-2xl overflow-hidden border border-white/[0.06] shadow-lg h-full">
             <img
-              src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&q=80&auto=format&fit=crop"
-              alt="Fútbol"
-              class="w-full h-full object-cover object-top"
+              src="/images/hero/team-men.jpg"
+              alt="Equipo de fútbol masculino celebrando en cancha de Corrientes"
+              class="w-full h-full object-cover object-center"
             />
             <div class="absolute inset-0 bg-blue/10 pointer-events-none" />
           </div>
           <div class="reveal relative rounded-2xl overflow-hidden border border-white/[0.06] shadow-lg h-full" style="transition-delay: 100ms">
             <img
-              src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&q=80&auto=format&fit=crop"
-              alt="Atletismo"
+              src="/images/hero/team-women-trophy.jpg"
+              alt="Equipo femenino campeón con trofeo y bandera de Corrientes"
               class="w-full h-full object-cover object-center"
             />
             <div class="absolute inset-0 bg-blue/10 pointer-events-none" />
