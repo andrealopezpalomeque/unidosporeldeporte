@@ -94,10 +94,6 @@ onMounted(() => {
           </div>
         </div>
 
-        <!-- Map placeholder -->
-        <div class="mt-8 rounded-2xl bg-white/5 dark:bg-white/[0.03] border border-white/10 dark:border-white/5 h-48 flex items-center justify-center">
-          <span class="text-sm text-slate font-body">Mapa</span>
-        </div>
       </div>
 
       <!-- Form Side -->
@@ -113,7 +109,7 @@ onMounted(() => {
               type="text"
               required
               placeholder="Tu nombre"
-              class="w-full px-4 py-3 rounded-xl border border-white/10 dark:border-white/5 bg-white/5 dark:bg-white/[0.03] text-dark dark:text-white placeholder-slate/50 font-body text-sm focus:outline-none focus:ring-2 focus:ring-light/30 focus:border-transparent transition-all duration-200"
+              class="w-full px-4 py-3 rounded-xl border border-dark/20 bg-white text-dark placeholder-slate/50 font-body text-sm focus:outline-none focus:ring-2 focus:ring-blue/40 focus:border-transparent transition-all duration-200"
             />
           </div>
 
@@ -127,7 +123,7 @@ onMounted(() => {
               type="email"
               required
               placeholder="tu@email.com"
-              class="w-full px-4 py-3 rounded-xl border border-white/10 dark:border-white/5 bg-white/5 dark:bg-white/[0.03] text-dark dark:text-white placeholder-slate/50 font-body text-sm focus:outline-none focus:ring-2 focus:ring-light/30 focus:border-transparent transition-all duration-200"
+              class="w-full px-4 py-3 rounded-xl border border-dark/20 bg-white text-dark placeholder-slate/50 font-body text-sm focus:outline-none focus:ring-2 focus:ring-blue/40 focus:border-transparent transition-all duration-200"
             />
           </div>
 
@@ -141,7 +137,7 @@ onMounted(() => {
               required
               rows="5"
               placeholder="Contanos en qué podemos ayudarte..."
-              class="w-full px-4 py-3 rounded-xl border border-white/10 dark:border-white/5 bg-white/5 dark:bg-white/[0.03] text-dark dark:text-white placeholder-slate/50 font-body text-sm focus:outline-none focus:ring-2 focus:ring-light/30 focus:border-transparent transition-all duration-200 resize-none"
+              class="w-full px-4 py-3 rounded-xl border border-dark/20 bg-white text-dark placeholder-slate/50 font-body text-sm focus:outline-none focus:ring-2 focus:ring-blue/40 focus:border-transparent transition-all duration-200 resize-none"
             ></textarea>
           </div>
 

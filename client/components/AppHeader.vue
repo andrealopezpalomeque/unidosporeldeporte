@@ -6,7 +6,7 @@
       'bg-white/95 backdrop-blur-sm',
     ]"
   >
-    <nav class="mx-auto max-w-[1080px] flex items-center justify-between px-4 py-3">
+    <nav class="mx-auto max-w-[1080px] flex items-center justify-between px-4 py-2">
       <!-- Logo -->
       <FullLogo
         layout="horizontal"

@@ -1,5 +1,5 @@
 <template>
-  <section class="relative min-h-screen flex items-center px-4 py-20 lg:py-40 overflow-hidden">
+  <section class="relative min-h-screen flex items-center px-4 py-12 lg:py-20 overflow-hidden">
 
     <!-- Background: clean white -->
     <div class="absolute inset-0 bg-white" />
@@ -10,7 +10,7 @@
     <div class="relative z-10 w-full max-w-[1080px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
 
       <!-- ── LEFT COLUMN: Text ── -->
-      <div class="flex flex-col gap-8">
+      <div class="flex flex-col gap-6">
 
         <!-- Badge -->
         <div class="reveal">

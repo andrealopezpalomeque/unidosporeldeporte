@@ -34,7 +34,7 @@
             id="nombre"
             type="text"
             placeholder="Tu nombre"
-            class="w-full rounded-xl border border-white/10 dark:border-white/5 bg-white/5 dark:bg-white/[0.03] px-4 py-3 font-body text-sm text-inherit placeholder:text-slate/50 focus:outline-none focus:ring-2 focus:ring-light/30 transition-all duration-200"
+            class="w-full rounded-xl border border-dark/20 bg-white px-4 py-3 font-body text-sm text-dark placeholder:text-slate/50 focus:outline-none focus:ring-2 focus:ring-blue/40 focus:border-transparent transition-all duration-200"
           />
         </div>
         <div>
@@ -43,7 +43,7 @@
             id="email"
             type="email"
             placeholder="tu@email.com"
-            class="w-full rounded-xl border border-white/10 dark:border-white/5 bg-white/5 dark:bg-white/[0.03] px-4 py-3 font-body text-sm text-inherit placeholder:text-slate/50 focus:outline-none focus:ring-2 focus:ring-light/30 transition-all duration-200"
+            class="w-full rounded-xl border border-dark/20 bg-white px-4 py-3 font-body text-sm text-dark placeholder:text-slate/50 focus:outline-none focus:ring-2 focus:ring-blue/40 focus:border-transparent transition-all duration-200"
           />
         </div>
         <div>
@@ -52,7 +52,7 @@
             id="mensaje"
             rows="4"
             placeholder="Contanos en qué podemos ayudarte..."
-            class="w-full rounded-xl border border-white/10 dark:border-white/5 bg-white/5 dark:bg-white/[0.03] px-4 py-3 font-body text-sm text-inherit placeholder:text-slate/50 focus:outline-none focus:ring-2 focus:ring-light/30 transition-all duration-200 resize-none"
+            class="w-full rounded-xl border border-dark/20 bg-white px-4 py-3 font-body text-sm text-dark placeholder:text-slate/50 focus:outline-none focus:ring-2 focus:ring-blue/40 focus:border-transparent transition-all duration-200 resize-none"
           />
         </div>
         <BaseButton type="submit" variant="primary" class="w-full sm:w-auto">
