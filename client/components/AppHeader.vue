@@ -1,18 +1,16 @@
 <template>
   <header
     :class="[
-      'sticky top-0 z-50 transition-shadow duration-300',
-      scrolled ? 'shadow-md' : '',
-      'bg-dark/95 backdrop-blur-sm border-b border-white/5',
-      'dark:bg-dark/95',
-      'light:bg-white/95 light:border-dark/5',
+      'sticky top-0 z-50 transition-all duration-300',
+      scrolled ? 'shadow-sm border-b border-dark/8' : 'border-b border-transparent',
+      'bg-white/95 backdrop-blur-sm',
     ]"
   >
     <nav class="mx-auto max-w-[1080px] flex items-center justify-between px-4 py-3">
       <!-- Logo -->
       <FullLogo
         layout="horizontal"
-        :variant="isDark ? 'dark' : 'light'"
+        variant="light"
         :icon-size="32"
         :wordmark-width="130"
       />
@@ -22,8 +20,8 @@
         <li v-for="link in navLinks" :key="link.to">
           <NuxtLink
             :to="link.to"
-            class="font-body text-sm font-medium text-white/70 hover:text-white transition-colors duration-200 dark:text-white/70 dark:hover:text-white"
-            active-class="!text-light"
+            class="font-body text-sm font-medium text-slate hover:text-dark transition-colors duration-200"
+            active-class="!text-blue"
           >
             {{ link.label }}
           </NuxtLink>
@@ -32,20 +30,10 @@
 
       <!-- Right actions -->
       <div class="flex items-center gap-3">
-        <!-- Dark/Light mode toggle -->
-        <button
-          @click="toggleDarkMode"
-          class="p-2 rounded-full text-white/60 hover:text-white hover:bg-white/10 transition-all duration-200"
-          :aria-label="isDark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'"
-        >
-          <Sun v-if="isDark" :size="20" />
-          <Moon v-else :size="20" />
-        </button>
-
         <!-- Mobile hamburger -->
         <button
           @click="mobileOpen = !mobileOpen"
-          class="md:hidden p-2 rounded-full text-white/60 hover:text-white hover:bg-white/10 transition-all duration-200"
+          class="md:hidden p-2 rounded-full text-slate hover:text-dark hover:bg-dark/5 transition-all duration-200"
           :aria-label="mobileOpen ? 'Cerrar menú' : 'Abrir menú'"
           :aria-expanded="mobileOpen"
         >
@@ -64,13 +52,13 @@
       leave-from-class="opacity-100 translate-y-0"
       leave-to-class="opacity-0 -translate-y-2"
     >
-      <div v-if="mobileOpen" class="md:hidden border-t border-white/5 bg-dark/98 backdrop-blur-sm">
+      <div v-if="mobileOpen" class="md:hidden border-t border-dark/8 bg-white/98 backdrop-blur-sm">
         <ul class="flex flex-col gap-1 px-4 py-4">
           <li v-for="link in navLinks" :key="link.to">
             <NuxtLink
               :to="link.to"
-              class="block py-2.5 px-3 rounded-xl font-body text-sm font-medium text-white/70 hover:text-white hover:bg-white/5 transition-all duration-200"
-              active-class="!text-light !bg-light/10"
+              class="block py-2.5 px-3 rounded-xl font-body text-sm font-medium text-slate hover:text-dark hover:bg-dark/5 transition-all duration-200"
+              active-class="!text-blue !bg-blue/8"
               @click="mobileOpen = false"
             >
               {{ link.label }}
@@ -83,7 +71,7 @@
 </template>
 
 <script setup lang="ts">
-import { Sun, Moon, Menu, X } from 'lucide-vue-next'
+import { Menu, X } from 'lucide-vue-next'
 
 const navLinks = [
   { to: '/', label: 'Inicio' },
@@ -96,18 +84,10 @@ const navLinks = [
 
 const mobileOpen = ref(false)
 const scrolled = ref(false)
-const isDark = ref(true)
 
 onMounted(() => {
-  isDark.value = document.documentElement.classList.contains('dark')
-
   window.addEventListener('scroll', () => {
     scrolled.value = window.scrollY > 10
   })
 })
-
-function toggleDarkMode() {
-  isDark.value = !isDark.value
-  document.documentElement.classList.toggle('dark', isDark.value)
-}
 </script>

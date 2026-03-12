@@ -1,10 +1,10 @@
 <template>
   <section class="relative min-h-screen flex items-center px-4 sm:px-8 lg:px-16 py-20 lg:py-40 overflow-hidden">
 
-    <!-- Background: dark gradient -->
-    <div class="absolute inset-0 bg-gradient-to-b from-dark via-dark to-dark/95" />
-    <!-- Background: brand colour overlays -->
-    <div class="absolute inset-0 bg-gradient-to-br from-blue/5 via-transparent to-light/5" />
+    <!-- Background: clean white -->
+    <div class="absolute inset-0 bg-white" />
+    <!-- Background: subtle blue warmth top-right -->
+    <div class="absolute inset-0 bg-gradient-to-br from-light/15 via-transparent to-accent/5" />
 
     <!-- Two-column content grid -->
     <div class="relative z-10 w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
@@ -14,7 +14,7 @@
 
         <!-- Badge -->
         <div class="reveal">
-          <span class="inline-flex items-center gap-2 border border-blue/35 rounded-full px-3 py-1 text-sm font-body font-medium text-light bg-blue/5 w-fit">
+          <span class="inline-flex items-center gap-2 border border-blue/30 rounded-full px-3 py-1 text-sm font-body font-medium text-blue bg-blue/8 w-fit">
             <span class="w-1.5 h-1.5 rounded-full bg-accent flex-shrink-0" />
             Fundación oficial · Corrientes, Argentina
           </span>
@@ -22,15 +22,15 @@
 
         <!-- Headline -->
         <h1 class="reveal font-heading font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tighter">
-          <span class="text-white">Conectamos</span><br>
-          <span class="text-light">el deporte</span><br>
-          <span class="text-white">correntino.</span>
+          <span class="text-dark">Conectamos</span><br>
+          <span class="text-blue">el deporte</span><br>
+          <span class="text-dark">correntino.</span>
         </h1>
 
         <!-- Description -->
         <p class="reveal font-body text-lg leading-relaxed text-slate max-w-md">
           Somos una fundación sin fines de lucro que articula
-          <strong class="text-white/70 font-medium">clubes, federaciones y comunidades</strong>
+          <strong class="text-dark/80 font-medium">clubes, federaciones y comunidades</strong>
           para fortalecer el deporte en Corrientes. Promovemos infraestructura, inclusión y políticas que llegan a todos.
         </p>
 
@@ -60,7 +60,7 @@
             alt="Equipo de fútbol masculino celebrando en cancha de Corrientes"
             class="w-full h-full object-cover object-center"
           />
-          <div class="absolute inset-0 bg-blue/10 pointer-events-none" />
+          <div class="absolute inset-0 bg-blue/5 pointer-events-none" />
         </div>
 
         <!-- Photo 2 — top-right -->
@@ -73,7 +73,7 @@
             alt="Equipo femenino campeón con trofeo y bandera de Corrientes"
             class="w-full h-full object-cover object-center"
           />
-          <div class="absolute inset-0 bg-blue/10 pointer-events-none" />
+          <div class="absolute inset-0 bg-blue/5 pointer-events-none" />
         </div>
 
         <!-- Photo 3 — bottom-left -->
@@ -86,7 +86,7 @@
             alt="Equipo femenino en rueda antes del partido"
             class="w-full h-full object-cover object-center"
           />
-          <div class="absolute inset-0 bg-blue/10 pointer-events-none" />
+          <div class="absolute inset-0 bg-blue/5 pointer-events-none" />
         </div>
 
         <!-- Photo 4 — bottom-right, large -->
@@ -99,7 +99,7 @@
             alt="Plantel masculino entrenando en cancha con estadio al fondo"
             class="w-full h-full object-cover object-top"
           />
-          <div class="absolute inset-0 bg-blue/10 pointer-events-none" />
+          <div class="absolute inset-0 bg-blue/5 pointer-events-none" />
         </div>
 
         <!-- Mobile: 2-photo grid (photos 3 and 4 are not shown on mobile) -->
@@ -110,7 +110,7 @@
               alt="Equipo de fútbol masculino celebrando en cancha de Corrientes"
               class="w-full h-full object-cover object-center"
             />
-            <div class="absolute inset-0 bg-blue/10 pointer-events-none" />
+            <div class="absolute inset-0 bg-blue/5 pointer-events-none" />
           </div>
           <div class="reveal relative rounded-2xl overflow-hidden border border-white/[0.06] shadow-lg h-full" style="transition-delay: 100ms">
             <img
@@ -118,7 +118,7 @@
               alt="Equipo femenino campeón con trofeo y bandera de Corrientes"
               class="w-full h-full object-cover object-center"
             />
-            <div class="absolute inset-0 bg-blue/10 pointer-events-none" />
+            <div class="absolute inset-0 bg-blue/5 pointer-events-none" />
           </div>
         </div>
 
@@ -130,8 +130,8 @@
 
     <!-- Scroll indicator -->
     <div class="reveal absolute bottom-8 left-1/2 -translate-x-1/2">
-      <div class="w-6 h-10 rounded-full border-2 border-slate/40 flex items-start justify-center p-1.5">
-        <div class="w-1.5 h-1.5 rounded-full bg-light animate-bounce" />
+      <div class="w-6 h-10 rounded-full border-2 border-dark/20 flex items-start justify-center p-1.5">
+        <div class="w-1.5 h-1.5 rounded-full bg-blue animate-bounce" />
       </div>
     </div>
 

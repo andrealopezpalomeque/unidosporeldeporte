@@ -9,7 +9,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      htmlAttrs: { lang: 'es', class: 'dark' },
+      htmlAttrs: { lang: 'es' },
       link: [
         {
           rel: 'stylesheet',
@@ -24,7 +24,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'theme-color', content: '#4a4d55' },
+        { name: 'theme-color', content: '#fcfcfc' },
         { property: 'og:site_name', content: 'Unidos por el Deporte' },
         { property: 'og:locale', content: 'es_AR' },
       ],
