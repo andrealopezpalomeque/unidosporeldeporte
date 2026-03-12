@@ -54,7 +54,6 @@
         <!-- Photo 1 — top-left, large -->
         <div
           class="reveal absolute top-0 left-[4%] w-[52%] h-[54%] z-30 rounded-2xl overflow-hidden border border-white/[0.06] shadow-lg hidden lg:block"
-          style="transition-delay: 0ms"
         >
           <img
             src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&q=80&auto=format&fit=crop"
@@ -105,7 +104,7 @@
 
         <!-- Mobile: 2-photo grid (photos 3 and 4 are not shown on mobile) -->
         <div class="grid grid-cols-2 gap-3 h-full lg:hidden">
-          <div class="reveal relative rounded-2xl overflow-hidden border border-white/[0.06] shadow-lg h-48" style="transition-delay: 0ms">
+          <div class="reveal relative rounded-2xl overflow-hidden border border-white/[0.06] shadow-lg h-full">
             <img
               src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&q=80&auto=format&fit=crop"
               alt="Fútbol"
@@ -113,7 +112,7 @@
             />
             <div class="absolute inset-0 bg-blue/10 pointer-events-none" />
           </div>
-          <div class="reveal relative rounded-2xl overflow-hidden border border-white/[0.06] shadow-lg h-48" style="transition-delay: 100ms">
+          <div class="reveal relative rounded-2xl overflow-hidden border border-white/[0.06] shadow-lg h-full" style="transition-delay: 100ms">
             <img
               src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&q=80&auto=format&fit=crop"
               alt="Atletismo"
