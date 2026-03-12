@@ -82,8 +82,8 @@
           style="transition-delay: 200ms"
         >
           <img
-            src="https://images.unsplash.com/photo-1526676037777-05a232554f77?w=600&q=80&auto=format&fit=crop"
-            alt="Básquet"
+            src="/images/hero/team-women-huddle.jpg"
+            alt="Equipo femenino en rueda antes del partido"
             class="w-full h-full object-cover object-center"
           />
           <div class="absolute inset-0 bg-blue/10 pointer-events-none" />
